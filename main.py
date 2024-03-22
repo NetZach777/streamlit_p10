@@ -21,7 +21,7 @@ def load_data(filepath):
 def get_sentiment_prediction(tweet_text):
     tweet_text = preprocess_text(tweet_text)
     
-    url = "https://9ba2-2a01-cb04-ae6-c900-d6a1-afc7-bf95-2370.ngrok-free.app/predict-sentiment/"
+    url = " https://9fd5-2a01-cb04-ae6-c900-d6a1-afc7-bf95-2370.ngrok-free.app/predict-sentiment/"
     payload = {"text": tweet_text}
     try:
         response = requests.post(url, json=payload)
